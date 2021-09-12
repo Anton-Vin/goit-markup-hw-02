@@ -1,12 +1,43 @@
 /* цвет основного текста серый #757575 */
-/* цвет основного текста вторичный черный #212121 */
-/* цвет ссылок в шапке #2196F3 */
+/* цвет текста вторичный черный #212121 */
+/* цвет ссылок в шапке и почты #2196F3 */
 /* цвет акцента ховера #188CE8 */
 /* цвет в герое и футере адреса белый #FFFFFF */
 /* цвет в футере почты и телефона rgba(255, 255, 255, 0.6); */
-/* background: #2F303A; в ГЕРОЕ */
+/* цвет основного background: F5F4FA */
+
 body {
+  background-color: #f5f4fa;
   color: #757575;
   font-family: segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial,
     sans-serif;
+}
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #000000;
+}
+.list {
+  list-style: none;
+}
+/* Стиль навигации сайта */
+.site-nav .link {
+  color: #212121;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+.mail-tel .link:hover,
+.mail-tel .link:hover {
+  color: #2196f3;
 }
