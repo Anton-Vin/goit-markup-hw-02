@@ -1,43 +1,119 @@
 /* цвет основного текста серый #757575 */
 /* цвет текста вторичный черный #212121 */
 /* цвет ссылок в шапке и почты #2196F3 */
-/* цвет акцента ховера #188CE8 */
 /* цвет в герое и футере адреса белый #FFFFFF */
 /* цвет в футере почты и телефона rgba(255, 255, 255, 0.6); */
 /* цвет основного background: F5F4FA */
-
+:root {
+  --text-color: #757575;
+  --text-title-color: #212121;
+  --accent-color: #2196f3;
+  --bg-color: #ffffff;
+}
 body {
-  background-color: #f5f4fa;
-  color: #757575;
-  font-family: segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial,
-    sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
 }
 .logo {
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
+  color: var(--accent-color);
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+.logo-hdr {
   color: #000000;
 }
-.list {
+/* .list {
   list-style: none;
-}
+} */
 /* Стиль навигации сайта */
+.site-nav {
+  list-style: none;
+  cursor: pointer;
+}
 .site-nav .link {
-  color: #212121;
-  font-family: Roboto;
-  font-style: normal;
+  color: var(--text-title-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+.mail-tel {
+  list-style: none;
+  letter-spacing: 0.02em;
+}
+.mail-tel .link {
+  color: var(--text-title-color);
+  text-decoration: none;
 }
 .mail-tel .link:hover,
 .mail-tel .link:hover {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+/* Hero style */
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
+  text-align: center;
+}
+.hero-title {
+  /* color: #ffffff; */
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-btn {
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  align-items: center;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--accent-color);
+}
+/* feature style */
+.feature {
+}
+.feature-list {
+}
+.feature-item {
+}
+.feature-title {
+}
+.feature-item-txt {
+}
+/* services provided style */
+.servis-title {
+}
+
+/* team style */
+.team-title {
+}
+.team-list {
+}
+.team-name {
+}
+.team-prof {
+}
+/* footer style */
+.logo-ftr {
 }
