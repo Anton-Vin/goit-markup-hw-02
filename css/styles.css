@@ -11,80 +11,72 @@
   --bg-color: #ffffff;
 }
 body {
-  background-color: var(--bg-color);
   color: var(--text-color);
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
+  background-color: var(--bg-color);
 }
 .logo {
-  font-family: Raleway;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.2;
   color: var(--accent-color);
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.2;
   text-decoration: none;
   letter-spacing: 0.03em;
 }
 .logo-hdr {
   color: #000000;
 }
-/* .list {
-  list-style: none;
-} */
 /* Стиль навигации сайта */
 .site-nav {
   list-style: none;
-  cursor: pointer;
+  letter-spacing: 0.02em;
 }
 .site-nav .link {
   color: var(--text-title-color);
   font-weight: 500;
   line-height: 1.14;
-  letter-spacing: 0.02em;
   text-decoration: none;
 }
 .site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:focus,
+.site-nav .link:active {
   color: var(--accent-color);
 }
-.mail-tel {
+.mail-tel-hdr {
   list-style: none;
   letter-spacing: 0.02em;
 }
-.mail-tel .link {
+.mail-tel-hdr .link {
   color: var(--text-title-color);
   text-decoration: none;
 }
-.mail-tel .link:hover,
-.mail-tel .link:hover {
+.mail-tel-hdr .link:hover,
+.mail-tel-hdr .link:hover {
   color: var(--accent-color);
 }
 /* Hero style */
 .hero {
-  background-color: #2f303a;
   color: #ffffff;
+  background-color: #2f303a;
   text-align: center;
+  letter-spacing: 0.06em;
 }
 .hero-title {
   /* color: #ffffff; */
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
-  letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 .hero-btn {
-  font-family: inherit;
-  font-style: inherit;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.9;
-  align-items: center;
-  letter-spacing: 0.06em;
-  background-color: var(--accent-color);
   color: #ffffff;
+  background-color: var(--accent-color);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.9;
 }
 .hero-btn:hover,
 .hero-btn:focus {
