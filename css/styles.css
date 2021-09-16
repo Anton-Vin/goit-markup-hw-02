@@ -29,6 +29,7 @@ body {
 }
 .btn {
   font-family: inherit;
+  cursor: pointer;
 }
 .logo {
   color: var(--accent-color);
@@ -144,11 +145,6 @@ body {
   text-align: center;
 }
 /* PORTFOLIO ORIGINAL STYLES */
-.filter {
-  /* font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6; */
-}
 .filter-list {
   text-align: center;
 }
@@ -195,4 +191,8 @@ body {
 }
 .connect-footer-mail {
   color: rgba(255, 255, 255, 0.6);
+}
+.connect-footer-mail:hover,
+.connect-footer-mail:focus {
+  color: var(--accent-color);
 }
