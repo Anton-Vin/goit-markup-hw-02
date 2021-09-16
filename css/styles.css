@@ -69,7 +69,7 @@ body {
   line-height: 1.17;
 }
 .connect-header .link {
-  color: var(--text-title-color);
+  color: var(--text-prime-color);
   text-decoration: none;
 }
 .connect-header .link:hover,
